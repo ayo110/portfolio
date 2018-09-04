@@ -370,10 +370,14 @@ figure.snip1200.hover p {
     color: #fff;
     padding: 40px;
 }
+#works .work_list{
+    width: 100%;
+    margin: 0 auto;
+}
 #works .work_list > li{
     margin-bottom: 3%;
     box-shadow: 2px 4px 6px rgba(100, 100, 100, 0.38);
-    width: 30%; height: 50%;
+    
     background: #fff;
 }
 
