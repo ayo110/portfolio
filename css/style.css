@@ -373,6 +373,7 @@ figure.snip1200.hover p {
 #works .work_list{
     width: 100%;
     margin: 0 auto;
+    margin-top: 2%;
 }
 #works .work_list > li{
     margin-bottom: 3%;
