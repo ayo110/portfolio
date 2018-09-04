@@ -22,6 +22,7 @@ body{
 .section{
     width: 100%;
     height: 100%;
+    background: #ffede9;
 }
 
 
@@ -145,7 +146,6 @@ footer:after{
 }
 
 
-
 /* about */
 
 #se_page{
@@ -155,7 +155,7 @@ footer:after{
 }
 
 #about{
-    margin-top: 7%;
+    margin-top: 12%;
     background: rgb(195, 96, 96);
 }
 #about h1{
@@ -193,7 +193,7 @@ figure.snip1200 {
     background: rgba(195, 96, 96, 0.67); /* #about과 색 동일해야 함*/
     color: #fff;
     text-align: center;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.10);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
     font-size: 20px;
     border-radius: 50%;
     margin-top: 15px;
@@ -312,15 +312,18 @@ figure.snip1200.hover p {
 }
 
 #skill{
+    background-color: #fff;
     background-image: url(../images/skill_bg.png);
     background-position: center bottom;
     background-size:cover;
     background-repeat: no-repeat;
     color: #fff;
+    
 }
 
 #skill .h1{
     padding: 40px;
+    margin-top: 10%;
 /*    border: 1px solid red;*/
     color: #fff;
     background: rgb(195, 96, 96);
@@ -392,7 +395,7 @@ figure.snip1200.hover p {
 }
 
 #contact{
-    margin-top: 9%;
+    margin-top: 28%;
     background: #fd8f8f; /* .snip1273 색과 동일해야 함 */
     perspective: 4000px;
     text-align: center;
@@ -578,6 +581,7 @@ figure.snip1200.hover p {
     width: 100%;
     text-align: center;
 }
+/*
 #main_footer > .sns{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -592,6 +596,7 @@ figure.snip1200.hover p {
 #main_footer > .sns > a:last-child{
     margin-right: 0;
 }
+*/
 #main_footer > #to_top{
     background: #ffede9;
     margin: 20px;
@@ -600,21 +605,25 @@ figure.snip1200.hover p {
 #main_footer > #to_top > a{
     display: inline-block;
 }
+/*
 #main_footer #to_top a img{
     width: 50px; height: 50px;
     display: block;
     padding-bottom: 3px;
 }
+*/
 #main_footer #to_top a i{
     width: 50px; height: 53px;
     display: none;
 }
-#main_footer #to_top a:hover i{
+#main_footer #to_top a i{
     display: block;
 }
+/*
 #main_footer #to_top a:hover img{
     display: none;
 }
+*/
 #to_top .fa-arrow-up{
     font-size: 30px;
     color: #fd8f8f;
